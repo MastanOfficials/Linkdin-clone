@@ -1,7 +1,7 @@
 import RigisterComponent from "../components/RigisterComponent"
 
 
-const Rigister = () => {
+const SignIn = () => {
   return (
     <div>
         <RigisterComponent/>
@@ -9,4 +9,4 @@ const Rigister = () => {
   )
 }
 
-export default Rigister
+export default SignIn

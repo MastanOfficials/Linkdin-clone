@@ -1,0 +1,42 @@
+.feed-Header {
+  margin: 5px;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  border-bottom: 2px solid snow;
+
+}
+ul{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+li,a {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+     
+  img {
+    // object-fit: cover;
+    width: 40px;
+    height: 40px;
+  }
+}
+li{
+    padding-left: 50px;
+    input{
+        border:none ;
+        display: inline;
+        display: flex;
+        padding-top:10px;
+        padding-right: -10px;
+        border: 1px solid #000;
+    }
+}
+

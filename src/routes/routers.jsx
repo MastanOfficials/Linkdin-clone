@@ -1,7 +1,8 @@
 import { createBrowserRouter } from "react-router-dom";
+import FeedData from "../pages/FeedData";
 // import LoginAuth from "../components/LoginAuth";
 import Login from "../pages/Login";
-import Rigister from "../pages/Rigister";
+import SignIn from "../pages/SignUp";
 
 export const router=createBrowserRouter([
     {
@@ -9,7 +10,11 @@ export const router=createBrowserRouter([
         element:<Login/>,
     },
     {
-        path:"/rigister",
-        element:<Rigister/>
+        path:"/signup",
+        element:<SignIn/>
+    },
+    {
+        path:'/feed',
+        element:<FeedData/>
     }
 ])
