@@ -2,9 +2,11 @@
 
 const RigisterComponent = () => {
   return (
-    <div>
-      Rigister component
-    </div>
+    <>
+      <div>
+        
+      </div>
+    </>
   )
 }
 

@@ -5,6 +5,7 @@ import "./index.css";
 import { RouterProvider } from "react-router-dom";
 import { router } from "./routes/routers";
 import 'react-toastify/dist/ReactToastify.css';
+import "../node_modules/bootstrap/dist/css/bootstrap-grid.min.css"
 
 import {ToastContainer} from "react-toastify";
 
