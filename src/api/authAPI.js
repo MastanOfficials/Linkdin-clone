@@ -32,5 +32,3 @@ export const siginPopup = async ()=>{
         return error;
     }
 }
-
-// const authDomain=

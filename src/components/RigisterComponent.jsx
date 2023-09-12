@@ -49,10 +49,10 @@ const RigisterComponent = () => {
           fontSize: "40px",
         }}
       >
-        Linked
-        <span>
+        Linkein
+        {/* <span>
           <i className="fab fa-linkedin"></i>
-        </span>
+        </span> */}
       </h2>
       <div className="container">
         <div className="text">

@@ -1,6 +1,7 @@
 import "../scss/feedHeader.scss";
 import linkdinImage from "../assets/images/linkedin.png";
 const FeedHeader = () => {
+  
   return (
     <>
       <div className="feed-Header">
